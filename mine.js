@@ -23,7 +23,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("https://lead-1461.intramanager.com/users/edit-user-action/", requestOptions)
+fetch("https://lead-1463.intramanager.com/users/edit-user-action/", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
