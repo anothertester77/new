@@ -6,7 +6,7 @@ myHeaders.append("content-type", "application/x-www-form-urlencoded; charset=UTF
 myHeaders.append("cookie", document.cookie);
 myHeaders.append("pragma", "no-cache");
 myHeaders.append("sec-ch-ua", "\"Not-A.Brand\";v=\"99\", \"Opera\";v=\"91\", \"Chromium\";v=\"105\"");
-myHeaders.append("origin", "https://lead-1463.intramanager.com");
+myHeaders.append("origin", "https://lead-4820.intramanager.com");
 myHeaders.append("sec-ch-ua-mobile", "?0");
 myHeaders.append("sec-ch-ua-platform", "\"Windows\"");
 myHeaders.append("sec-fetch-dest", "empty");
@@ -24,7 +24,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("https://lead-1463.intramanager.com/users/edit-user-action/", requestOptions)
+fetch("https://lead-4820.intramanager.com/users/edit-user-action/", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
