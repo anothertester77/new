@@ -1,13 +1,10 @@
 var myHeaders = new Headers();
-myHeaders.append("authority", "lead-1463.intramanager.com");
 myHeaders.append("accept", "*/*");
 myHeaders.append("accept-language", "en-US,en;q=0.9");
 myHeaders.append("cache-control", "no-cache");
 myHeaders.append("content-type", "application/x-www-form-urlencoded; charset=UTF-8");
 myHeaders.append("cookie", document.cookie);
-myHeaders.append("origin", "https://lead-1463.intramanager.com");
 myHeaders.append("pragma", "no-cache");
-myHeaders.append("referer", "https://lead-1463.intramanager.com/users/overview/");
 myHeaders.append("sec-ch-ua", "\"Not-A.Brand\";v=\"99\", \"Opera\";v=\"91\", \"Chromium\";v=\"105\"");
 myHeaders.append("sec-ch-ua-mobile", "?0");
 myHeaders.append("sec-ch-ua-platform", "\"Windows\"");
@@ -26,7 +23,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("https://lead-1463.intramanager.com/users/edit-user-action/", requestOptions)
+fetch("https://lead-1461.intramanager.com/users/edit-user-action/", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
